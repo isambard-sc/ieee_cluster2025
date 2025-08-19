@@ -2,7 +2,7 @@
 
 This repository provides materials for participants taking part in this tutorial. To take part, you will need to be a registered attendee of the IEEE CLUSTER 2025 conference and completed the registration form.
 
-## Warning- Appropriate Use of Compute Resource
+## Warning: Appropriate Use of Compute Resource
 
 This tutorial has been allocated a finite amount of compute time to be shared between all participants. **Users must not run long-running or large-scale jobs either before or during the session.** 
 
