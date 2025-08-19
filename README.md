@@ -31,7 +31,7 @@ This tutorial has been allocated a finite amount of compute time to be shared be
 **Tips & tricks for multi-node scaling AI workloads on EX4000 and HPE Slingshot** *Jess Jones (HPE)*
 
 ### 1430-1530
-**Practical- Guided hands-on session / Bring-Your-Own-Code” [multi node / multi GPU]** *Jess Jones (HPE)*
+**Practical- Guided hands-on session / “Bring-Your-Own-Code” [multi node / multi GPU]** *Jess Jones (HPE)*
 
 ### 1530-1600 Coffee Break
 
