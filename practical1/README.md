@@ -1,4 +1,4 @@
-# Practical 1- Finding your way around Isambard-AI
+# Practical 1 - Finding your way around Isambard-AI
 
 This session allows users to familiarise themselves with Isambard-AI, including:
 
