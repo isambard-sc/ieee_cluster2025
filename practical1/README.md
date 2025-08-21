@@ -22,7 +22,7 @@ Follow the [Login Guide](https://docs.isambard.ac.uk/user-documentation/guides/l
 
 Modules provide a method for providing a range of basic software and libraries.
 
-Use `module avail` to see what is provides, and then `module list` to see what is presently loaded. `module load` adds modules to those already loaded.
+Use `module avail` to see what is provided, and then `module list` to see what is presently loaded. `module load` adds modules to those already loaded.
 
 **Task 1**
 
