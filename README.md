@@ -2,6 +2,10 @@
 
 This repository provides materials for participants taking part in this tutorial. To take part, you will need to be a registered attendee of the IEEE CLUSTER 2025 conference and completed the registration form.
 
+## Warning: You must attend the tutorial in-person
+
+To adhere to compliance and security policies, participants must take part in person. You will be required to sign-in at the session.
+
 ## Warning: Appropriate Use of Compute Resource
 
 This tutorial has been allocated a finite amount of compute time to be shared between all participants. **Users must not run long-running or large-scale jobs either before or during the session.** 
@@ -42,3 +46,8 @@ This tutorial has been allocated a finite amount of compute time to be shared be
 **Guided hands-on session / “Bring-Your-Own-Code” [profiling and performance analysis]** *Karin Sevegnani (NVIDIA)*
 
 ### 1730 Close
+
+<!--
+## Feedback
+We welcome your feedback on the session. Please take a few moments to fill in the [feedback form](https://forms.office.com/e/0uTtCksZAp).
+-->
