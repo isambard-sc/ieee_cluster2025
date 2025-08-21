@@ -12,7 +12,7 @@ All activities in this practical session are based on examples in the [documenta
 
 Prior to the workshop, you should have completed the [required pre-workshop steps](https://docs.isambard.ac.uk/training/ieee_cluster2025/#required-pre-workshop-steps).
 
-SSH access to Isambard-AI is controlled using certificates using a command line tool called `clifton` and you will need to set this up before SSHing onto the platform. Note that [binary versions](https://github.com/isambard-sc/clifton/releases/tag/0.2.0) of are available. **Take care to select the correct architecture.**
+SSH access to Isambard-AI is controlled using certificates using a command line tool called `clifton` and you will need to set this up before SSHing onto the platform. Note that [binary versions](https://github.com/isambard-sc/clifton/releases/tag/0.2.0) are available. **Take care to select the correct architecture.**
 
 Follow the [Login Guide](https://docs.isambard.ac.uk/user-documentation/guides/login/) to enable to you to SSH into Isambard-AI into the project created specifically for this tutorial:
 
