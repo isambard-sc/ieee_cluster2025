@@ -14,7 +14,7 @@ Prior to the workshop, you should have completed the [required pre-workshop step
 
 SSH access to Isambard-AI is controlled using certificates using a command line tool called `clifton` and you will need to set this up before SSHing onto the platform. Note that [binary versions](https://github.com/isambard-sc/clifton/releases/tag/0.2.0) are available. **Take care to select the correct architecture.**
 
-Follow the [Login Guide](https://docs.isambard.ac.uk/user-documentation/guides/login/) to enable to you to SSH into Isambard-AI into the project created specifically for this tutorial:
+Follow the [Login Guide](https://docs.isambard.ac.uk/user-documentation/guides/login/) to enable you to SSH into Isambard-AI into the project created specifically for this tutorial:
 
 `ssh t5c.aip2.isambard`
 
