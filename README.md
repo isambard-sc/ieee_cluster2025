@@ -47,7 +47,5 @@ This tutorial has been allocated a finite amount of compute time to be shared be
 
 ### 1730 Close
 
-<!--
 ## Feedback
 We welcome your feedback on the session. Please take a few moments to fill in the [feedback form](https://forms.office.com/e/0uTtCksZAp).
--->
