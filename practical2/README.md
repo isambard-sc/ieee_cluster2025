@@ -11,7 +11,7 @@
 Start an interactive session on a full node:
 
 ```
-alias interactive_node="srun --gpus=4 --time=00:15:00 --exclusive --reservation=IEEE_Cluster_Tutorial --pty /bin/bash --login
+alias interactive_node="srun --gpus=4 --time=00:15:00 --exclusive --reservation=IEEE_Cluster_Tutorial --pty /bin/bash --login"
 ```
 
 Access NVIDIA Nsight System without loading a full module (useful to avoid version conflicts):
