@@ -289,6 +289,7 @@ Copy input from `${PROJECTDIR}/gromacs_example/stmv` into `${SCRATCH}`.
 No need of prepropcessing, simulation is ready to go.
 
 To run on a single GPU (which will be shared among processes):
+
 ```
 export GMX_ENABLE_DIRECT_GPU_COMM=1
 export CONT=${SCRATCH}/gromacs-2023.2.sif
@@ -296,6 +297,7 @@ singularity run --nv -B ${PWD}:/host_pwd --pwd /host_pwd "${CONT}" gmx mdrun -nt
 ```
 
 To run on all 4 GPUs:
+
 ```
 export GMX_ENABLE_DIRECT_GPU_COMM=1
 export CONT=${SCRATCH}/gromacs-2023.2.sif
