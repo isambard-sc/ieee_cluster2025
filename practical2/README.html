@@ -715,19 +715,17 @@ torch.cuda.memory.change_current_allocator(rmm_torch_allocator)</code></pre></di
 
 <p>No need of prepropcessing, simulation is ready to go.</p>
 
-<p>To run on a single GPU (which will be shared among processes):<br>
-<code><br>
-export GMX_ENABLE_DIRECT_GPU_COMM=1<br>
-export CONT=${SCRATCH}/gromacs-2023.2.sif<br>
-singularity run --nv -B ${PWD}:/host_pwd --pwd /host_pwd &quot;${CONT}&quot; gmx mdrun -ntmpi 8 -ntomp 8 -nb gpu -pme gpu -npme 1 -update gpu -bonded gpu -nsteps 10000 -resetstep 9000 -noconfout -dlb no -nstlist 300 -pin on -v -gpu_id 0<br>
-</code></p>
+<p>To run on a single GPU (which will be shared among processes):</p>
 
-<p>To run on all 4 GPUs:<br>
-<code><br>
-export GMX_ENABLE_DIRECT_GPU_COMM=1<br>
-export CONT=${SCRATCH}/gromacs-2023.2.sif<br>
-singularity run --nv -B ${PWD}:/host_pwd --pwd /host_pwd &quot;${CONT}&quot; gmx mdrun -ntmpi 8 -ntomp 8 -nb gpu -pme gpu -npme 1 -update gpu -bonded gpu -nsteps 10000 -resetstep 9000 -noconfout -dlb no -nstlist 300 -pin on -v -gpu_id 0123<br>
-</code></p>
+<div><pre><code class="language-none">export GMX_ENABLE_DIRECT_GPU_COMM=1
+export CONT=${SCRATCH}/gromacs-2023.2.sif
+singularity run --nv -B ${PWD}:/host_pwd --pwd /host_pwd &quot;${CONT}&quot; gmx mdrun -ntmpi 8 -ntomp 8 -nb gpu -pme gpu -npme 1 -update gpu -bonded gpu -nsteps 10000 -resetstep 9000 -noconfout -dlb no -nstlist 300 -pin on -v -gpu_id 0</code></pre></div>
+
+<p>To run on all 4 GPUs:</p>
+
+<div><pre><code class="language-none">export GMX_ENABLE_DIRECT_GPU_COMM=1
+export CONT=${SCRATCH}/gromacs-2023.2.sif
+singularity run --nv -B ${PWD}:/host_pwd --pwd /host_pwd &quot;${CONT}&quot; gmx mdrun -ntmpi 8 -ntomp 8 -nb gpu -pme gpu -npme 1 -update gpu -bonded gpu -nsteps 10000 -resetstep 9000 -noconfout -dlb no -nstlist 300 -pin on -v -gpu_id 0123</code></pre></div>
 
 <p>Performance is measured in <code>ns/day</code> and can be extracted with the following command:</p>
 
